@@ -92,7 +92,7 @@ function App() {
         <ProjectContainer>
           <h3>Crypto tracking website</h3>
           <p>This project is a recommendation system that analyzes user preferences and suggests tailored programs based on various factors. The system uses machine learning algorithms and dynamic content generation.</p>
-          <img src="your-image.jpg" alt="PRS" style={{ width: '100%', borderRadius: '8px' }} />
+          <img src="crypto.png" alt="Coin" style={{ wmaxWidth: '300px', borderRadius: '16px', marginRight: '60px' }} />
           <br />
           <a href="https://github.com/bshrestha432/crypto_tracker.git" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff' }}>GitHub Repo</a>
         </ProjectContainer>
@@ -100,7 +100,7 @@ function App() {
         <ProjectContainer>
           <h3>Horror Story Project</h3>
           <p><strong>Description:</strong> A basic e-commerce application where users can browse products, add them to the cart, and make purchases. It demonstrates RESTful APIs, model-view-controller architecture, and a robust database schema.</p>
-          <img src="your-image.jpg" alt="Simple Store" style={{ width: '100%', borderRadius: '8px' }} />
+          <img src="horror.png" alt="Horror" style={{ maxWidth: '300px', borderRadius: '16px', marginRight: '60px' }} />
           <br />
           <a href="https://github.com/bshrestha432/Final-Project.git" target="_blank" rel="noopener noreferrer" style={{ color: '#ffffff' }}>GitHub Repo</a>
         </ProjectContainer>
@@ -111,7 +111,7 @@ function App() {
         <Heading>Tech List</Heading>
 
         <div>
-          <h3>Languages/Frameworks</h3>
+          <h3>Languages</h3>
           <List>
             <ListItem>JavaScript: For client-side and server-side development.</ListItem>
             <ListItem>React: Used to create dynamic UIs and single-page applications.</ListItem>
@@ -132,6 +132,24 @@ function App() {
           </List>
         </div>
       </Section>
+
+      {/* Resources */}
+      <Section>
+      <Heading>Resources</Heading>
+      <div style={{ backgroundColor: '#1d1d1d', padding: '20px', borderRadius: '8px', marginBottom: '20px' }}>
+        <h3 style={{ color: '#f1e6d3' }}>Docker for Beginners - Udemy</h3>
+        <img src="https://commons.wikimedia.org/wiki/File:Docker_(container_engine)_logo.png" alt="Docker for Beginners" style={{ maxWidth: '100px', borderRadius: '8px', marginRight: '20px' }} />
+        <p style={{ color: '#f1e6d3' }}>This beginner-friendly course on Udemy teaches you how to use Docker in real-world scenarios. It covers the basics and gradually dives into more advanced topics like Docker Compose, Docker networks, and Docker Swarm.</p>
+        <a href="https://www.udemy.com/course/docker-tutorial-for-beginners/" target="_blank" rel="noopener noreferrer" style={{ color: '#e63946' }}>Visit Resource</a>
+      </div>
+
+      <div style={{ backgroundColor: '#1d1d1d', padding: '20px', borderRadius: '8px', marginBottom: '20px' }}>
+        <h3 style={{ color: '#f1e6d3' }}>React Official Documentation</h3>
+        <img src="https://reactjs.org/logo-og.png" alt="React Documentation" style={{ maxWidth: '100px', borderRadius: '8px', marginRight: '20px' }} />
+        <p style={{ color: '#f1e6d3' }}>The official React documentation provides a comprehensive guide for learning React, including components, state management, hooks, and more. It’s a great resource for both beginners and advanced developers.</p>
+        <a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer" style={{ color: '#e63946' }}>Visit Resource</a>
+      </div>
+    </Section>
 
       {/* Developer Setup Section */}
       <Section>
