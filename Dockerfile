@@ -19,7 +19,7 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 
 # Step 7: Expose the port that Nginx is listening on
-EXPOSE 5575
+EXPOSE 80
 
 # Step 8: Run Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]

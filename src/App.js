@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaInstagram, FaFacebook, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; // Import social icons
+import { FaInstagram, FaFacebook, FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from 'react-icons/fa'; // Import social icons
 import './App.css';
 
 // Styled components with the new theme
@@ -82,6 +82,12 @@ function App() {
         </IconLink>
         <IconLink href="mailto:sthapython999@gmail.com">
           <FaEnvelope />
+        </IconLink>
+
+      {/* Add resume link */}
+
+        <IconLink href="/Resume_BShrestha1.pdf" target="_blank" rel="noopener noreferrer">
+          <FaFilePdf />
         </IconLink>
       </SocialIcons>
 
