@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #1d1d1d; /* Black background for the entire page */
+  color: #f1e6d3; /* Beige text color */
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .App-logo {
@@ -14,18 +18,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1d1d1d; /* Black background for header */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #eb9707; /* Beige text in header */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff; /* White links */
+}
+
+.App-header h1 {
+  color: #f1e6d3; /* Beige color for the main header */
+}
+
+.App-header p {
+  color: #f1e6d3; /* Beige color for the text in header */
+}
+
+.App-link:hover {
+  text-decoration: underline;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +51,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.App-social-icons a {
+  color: #ffffff; /* White color for the social media icons */
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.App-social-icons a:hover {
+  color: #f1e6d3; /* Beige color on hover */
 }
